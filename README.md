@@ -57,37 +57,38 @@ MIne looked ad show below:
   <code>
     </p>
 <p>
-<b> 2).Create Heroku Git Repository.
-With your terminal still open navigate to your React app folder and change directory into it. Now we need to connect our project to Heroku. If you haven’t already installed the Heroku CLI. To make sure it’s installed correctly run this command:<b>
+<b> 2).Create Heroku Git Repository.</b> <br>
+With your terminal still open navigate to your React app folder and change directory into it. Now we need to connect our project to Heroku. If you haven’t already installed the Heroku CLI. To make sure it’s installed correctly run this command:<b><br>
   <code>
-heroku --version
+heroku --version <br>
   </code>
  </b>
-You should see your Heroku CLI version. Once that is installed we need to setup up Heroku git repository by running these commands:
+You should see your Heroku CLI version. Once that is installed we need to setup up Heroku git repository by running these commands:<br>
 <b>
   <code>
-heroku login (Enter your Heroku credentials)
-git init
-git add .
-git commit -m “initial commit”
-heroku create (You should see two links after running this command. Copy the second one)
-git remote add heroku PASTE THE LINK YOU JUST COPIED
-git push heroku master
+heroku login (Enter your Heroku credentials)<br>
+git init<br>
+git add .<br>
+git commit -m “initial commit” <br>
+heroku create (You should see two links after running this command. Copy the second one) <br>
+git remote add heroku PASTE THE LINK YOU JUST COPIED <br>
+git push heroku master <br>
     </code>
  </b>
   </p>
   <p>
-Once you run the last command Heroku will start to run some tests on your app. If everything goes right you should see a successful deploy message. Now you’re able to navigate to your app by running:
+Once you run the last command Heroku will start to run some tests on your app. If everything goes right you should see a successful deploy message. Now you’re able to navigate to your app by running: <br>
 <p>
   <code> heroku open </code>
-Anytime you make changes to your app and want to re-deploy the only commands you need to run are:
+Anytime you make changes to your app and want to re-deploy the only commands you need to run are:<br>
 <code>
-git add .
-git commit -m “any message goes here”
-git push heroku master
+git add . <br>
+git commit -m “any message goes here” <br>
+git push heroku master <br>
   </code>
   </p>
-  <b> For Non-Techie's Here is a simple and easier method </b>
+<br><br>
+  <b> For Non-Techie's Here is a simple and easier method </b> <br>
   <p> 
 Now that I made you go through all of that process, there is an easier method if you use Github. All you have to do is log into your Heroku account; click “new” then “create new app” and give your app a name. After clicking create you should be greeted with a dashboard for the app you just created. Navigate to the deploy tab and sync your Github account with Heroku. After syncing your Github account and can search for the repository you want to sync with Heroku by scrolling down to “App connected to Github” section and searching for the repository you want to sync. You can also set up automatic deployment, so every time you push to the master branch Heroku will rebuild your app for you.
   </p>  
