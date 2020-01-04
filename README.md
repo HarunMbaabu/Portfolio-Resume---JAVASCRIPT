@@ -10,7 +10,8 @@
 
 <p> Feel free to Clone it as edit to suit your details and deploy to heroku as show below: </p>
 
-<b> 1). Clone the repository. </b> 
+<b> 1). Clone the repository. </b> <br>
+
 <p> $ git clone https://github.com/HarunHM/Portfolio-Resume---JAVASCRIPT.git .<br> 
   You can also download as a zip file to your local machine  and unzip it anywhere locally in your PC</p>
 <b> 2). Navagate to the folder. </b>
@@ -30,7 +31,7 @@ Chech the version of npm and node you are using to to avoid errors while deployi
 
 <code> node -v </code>   Press enter
 
-MIne looked ad show below:
+MIne looked as show below:
 <code>
   <pre>
 {
@@ -57,6 +58,7 @@ MIne looked ad show below:
   <code>
     </p>
 <p>
+  <br>
 <b> 2).Create Heroku Git Repository.</b> <br>
 With your terminal still open navigate to your React app folder and change directory into it. Now we need to connect our project to Heroku. If you haven’t already installed the Heroku CLI. To make sure it’s installed correctly run this command:<b><br>
   <code>
