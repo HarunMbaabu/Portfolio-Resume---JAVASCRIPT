@@ -22,7 +22,7 @@
 
 
 <h1> Deploying on HEROKU: </h1>
-<B>To deploy React/node app should read the article below:</p>
+<p>To deploy React/node app should read the article below:</p>
 <b>1). Editing scripts and package.json file </b>
 <p>  
 Chech the version of npm and node you are using to to avoid errors while deploying and edit your package.json file. <br>
